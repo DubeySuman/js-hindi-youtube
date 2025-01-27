@@ -13,7 +13,7 @@ let state;
 
 // ------------- Primitive Datatypes-------------
 
-// nmber => 2^53
+// number => 2^53
 // bigint
 // string
 // boolean => true/false
@@ -22,3 +22,6 @@ let state;
 // symbol => unique
 
 console.log(typeof age)
+
+console.log(typeof undefined); // undefined
+console.log(typeof null); // object
